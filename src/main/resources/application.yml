@@ -1,0 +1,36 @@
+# Tomcat
+server:
+    tomcat:
+        uri-encoding: UTF-8
+        max-threads: 1000
+        min-spare-threads: 30
+    port: 11122
+    context-path: /redis-colony
+
+# mysql等
+spring:
+    # 环境 dev|test|pro
+    profiles:
+        active: dev
+    #mvc:
+    #     view:
+    #        prefix: /views/  #前缀
+    #        suffix: .jsp     #后缀
+
+    # jackson时间格式化
+    jackson:
+        time-zone: GMT+8
+        date-format: yyyy-MM-dd HH:mm:ss
+    http:
+        multipart:
+            max-file-size: 100MB
+            max-request-size: 100MB
+            enabled: true
+        encoding:
+            force: true
+            charset: utf-8
+            enabled: true
+
+
+
+
