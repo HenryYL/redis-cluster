@@ -14,6 +14,7 @@
 
 # 配置文件
 项目配置均在application.yml 配置文件中，启动后请自行更改端口号和应用上下文，如下：
+```
 server:
     tomcat:
         uri-encoding: UTF-8
@@ -21,4 +22,5 @@ server:
         min-spare-threads: 30
     port: 11122
     context-path: /redis
+```
  数据库配置在application-dev.yml中，dev为测试文件，pro为正式环境文件，启动时可自行选择。
