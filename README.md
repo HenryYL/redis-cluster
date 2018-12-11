@@ -10,7 +10,7 @@
  - RedisCacheable拦截所有元注解Cacheable注解的方法
  - RedisCacheEvict拦截所有元注解CacheEvict注解的方法
  - RedisCachePut拦截所有元注解CachePut注解的方法
-各个注解方法就不一一详细介绍了，后续大家使用如有修改，可以去对应的类文件中查找
+ 各个注解方法就不一一详细介绍了，后续大家使用如有修改，可以去对应的类文件中查找
 
 # 配置文件
 项目配置均在application.yml 配置文件中，启动后请自行更改端口号和应用上下文，如下：
