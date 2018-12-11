@@ -7,9 +7,9 @@
 
 # AOP实现Redis缓存处理介绍
 其中RedisAspect类拦截所有元注解RedisCache注解的方法，代码中会有详细注释
-RedisCacheable拦截所有元注解Cacheable注解的方法
-RedisCacheEvict拦截所有元注解CacheEvict注解的方法
-RedisCachePut拦截所有元注解CachePut注解的方法
+ - RedisCacheable拦截所有元注解Cacheable注解的方法
+ - RedisCacheEvict拦截所有元注解CacheEvict注解的方法
+ - RedisCachePut拦截所有元注解CachePut注解的方法
 各个注解方法就不一一详细介绍了，后续大家使用如有修改，可以去对应的类文件中查找
 
 # 配置文件
