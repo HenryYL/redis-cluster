@@ -2,8 +2,8 @@
 自定义缓存注解实现
 
 # 项目架构
-Springboot + redis + influxdb
-因为之前学习influxdb所以将influxdb配置加入了项目中，但并未实际去使用，后续会完善
+ - Springboot + redis + influxdb
+ - 因为之前学习influxdb所以将influxdb配置加入了项目中，但并未实际去使用，后续会完善
 
 # AOP实现Redis缓存处理介绍
 其中RedisAspect类拦截所有元注解RedisCache注解的方法，代码中会有详细注释
